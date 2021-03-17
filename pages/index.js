@@ -1,7 +1,7 @@
 import Layout from "../component/Layout/Layout";
 import styles from "../styles/Home.module.css";
 
-export default function Home() {
+export default function Home({ games }) {
   return (
     <Layout>
       <div className={styles.container}>

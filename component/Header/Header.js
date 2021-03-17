@@ -5,9 +5,10 @@ export default function Header({ content }) {
     <>
       <header className="app-header">
         <nav>
-          <span>{content}</span>
-          <Link href="/">Home</Link> |{" "}
-          <Link href="/latest-news">Latest News</Link>
+          <span>
+            <b>{content}</b>
+          </span>{" "}
+          | <Link href="/">Home</Link> | <Link href="/games">Games</Link>
         </nav>
       </header>
     </>

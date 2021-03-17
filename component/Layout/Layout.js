@@ -6,12 +6,12 @@ export default function Layout({ children }) {
   return (
     <>
       <Head
-        title="News for you"
+        title="Games for you"
         description="A fancy website for you"
         author="Olav Omtveit"
         keyWords="news, js"
       />
-      <Header content="News for you" />
+      <Header content="Games for you" />
       <div className="container">{children}</div>
       <Footer />
     </>
